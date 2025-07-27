@@ -134,7 +134,7 @@ const MonthlyPrayersTime = () => {
                       <div
                         className={`${
                           title === "Hijri" || title === "Day" ? "w-[170px]" : "w-[140px]"
-                        }  text-center font-bold flex`}
+                        }  text-center font-bold flex items-center justify-center`}
                         key={indexTitle}>
                         {tableItems(title, el, index)}
                       </div>
